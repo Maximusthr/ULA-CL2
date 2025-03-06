@@ -26,13 +26,13 @@ always @(*) begin
 
 			4'b0011: 
 				{overflow, O} <= {1'b0, A} - {1'b0, ~B};
-			
+
             4'b0100:
                 {overflow, O} <= {1'b0, A} + 1;
-				
+
 			4'b0101:
                 {overflow, O} <= {1'b0, A} - 1;
-				
+
 			4'b0110:
                 {overflow, O} <= {1'b0, B} + 1;
 
@@ -41,28 +41,28 @@ always @(*) begin
 
 			4'b1000:
 				O <= A & B;
-				
+
 			4'b1001:
 				O <= ~(A);
-            
+
             4'b1010:
 			    O <= ~(B);
-				
+
 			4'b1011:
 				O <= A | B;
-				
+
 			4'b1100:
 				O <= A ^ B;
-			
+
             4'b1101:
 				O <= ~(A & B);
-				
+
 			4'b1110:
 				O <= A;
-				
+
 			4'b1111:
 				O <= B;
-							
+
 			default:
 				begin
 				O = 6'b000000;
@@ -71,7 +71,7 @@ always @(*) begin
 				end
 		endcase
 	end
-	
+
 	zero = (O == 6'b000000 ? 1 : 0);
 	end	
 endmodule
