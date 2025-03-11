@@ -23,9 +23,72 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 <br>
 <br>
 
-[![chip-logo](https://github.com/user-attachments/assets/63eea007-4a99-4238-b66c-cc52ebe194f4)](#:abacus::gear:-projeto-unidade-lógica-e-aritmética)
+[![chip-logo](https://github.com/user-attachments/assets/63eea007-4a99-4238-b66c-cc52ebe194f4)](#abacusgear-projeto-unidade-lógica-e-aritmética)
 
 ## :dart: Objetivo:
+
+O do projeto é projetar, implementar e simular uma Unidade Lógica e Aritmética (ULA)[^1] em SystemVerilog[^2] que seja capaz de realizar operações lógicas e aritméticas sobre operandos de 6 bits, seguindo as especificações a partir de entradas de seleção.
+
+[^1]: A [Unidade Lógica e Aritmética (ULA) ou Arithmetic Logic Unit (ALU)](https://www.icloud.com.br/20798/o-que-e-uma-unidade-logica-aritmetica) é um tipo de unidade da [Unidade Central de Processamento (CPU)](https://www.ibm.com/br-pt/think/topics/central-processing-unit-types#:~:text=Unidade%20l%C3%B3gica%20aritm%C3%A9tica%20(ALU)%3A,a%20a%C3%A7%C3%B5es%20espec%C3%ADficas%20do%20computador.)
+
+[^2]: SystemVerilog é uma [linguagem de descrição e verificação de hardware](https://pt.wikipedia.org/wiki/Linguagem_de_descri%C3%A7%C3%A3o_de_hardware)
+
+### Especificações da ULA e Atribuições
+
+#### Entradas:
+
+- **Operando A** (6 bits)
+- **Operando B** (6 bits)
+- **Reset** (zera as saídas)
+- **Seleção de Modo** (distingue entre operações aritméticas e lógicas)
+- **Seleção de Operação** (3 bits para determinar a operação específica)
+
+#### Saídas:
+
+- **Output ULA** (6 bits) – Resultado da operação
+- **Carry_out/Overflow** – Indica se houve estouro de representação
+- **Zero** – Indica se o resultado da operação é igual a zero (1 = Verdadeiro, 0 = Falso)
+
+Seguindo as especificações determinadas, as atribuições no código ficaram:
+
+- **`A` e `B`**  : São os operandos de 6 bits, conforme especificado
+- **`reset`**    : Zera as saídas (1 bit)
+- **`mode`**     : Define se a operação será lógica ou aritmética (1 bit)
+- **`oper`**     : Entrada de 3 bits para seleção da operaççao (S3-S2-S1-S0)
+- **`O`**        : O output da operação, com 6 bits
+- **`overflow`** : 1 bit, indica o overflow
+- **`zero`**     : 1 bit que indica o resultado nulo
+
+
+### Tabela de Operações da ULA
+
+#### Operações Aritméticas
+
+| S3 S2 S1 S0 | Operação           | Descrição                          |
+|-------------|--------------------|------------------------------------|
+| 0000        | O = A + B          | Soma dos operandos                 |
+| 0001        | O = A – B          | Subtração de A por B               |
+| 0010        | O = A + not(B)     | Soma de A com o complemento de B   |
+| 0011        | O = A – not(B)     | Subtração de A com complemento de B|
+| 0100        | O = A + 1          | Incrementa A                       |
+| 0101        | O = A – 1          | Decrementa A                       |
+| 0110        | O = B + 1          | Incrementa B                       |
+| 0111        | O = B – 1          | Decrementa B                       |
+
+#### Operações Lógicas
+
+| S3 S2 S1 S0 | Operação           | Descrição                          |
+|-------------|--------------------|------------------------------------|
+| 1000        | O = A AND B        | AND lógico entre os operandos      |
+| 1001        | O = NOT(A)         | Complemento de A                   |
+| 1010        | O = NOT(B)         | Complemento de B                   |
+| 1011        | O = A OR B         | OR lógico entre os operandos       |
+| 1100        | O = A XOR B        | XOR lógico entre os operandos      |
+| 1101        | O = A NAND B       | NAND lógico entre os operandos     |
+| 1110        | O = A              | Transfere A para a saída           |
+| 1111        | O = B              | Transfere B para a saída           |
+
+
 
 ## :gear: Como rodar
 
