@@ -12,10 +12,10 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 ### :control_knobs: Autores:
 
 -  :link:  *[Arthur Maximus Cavalcante Beuttenmuller](https://github.com/Maximusthr)*
--  :link:  *[Igor da Costa Gouveia](https://github.com/IgorCGouveia)*
 -  :link:  *[Lucas Henrique Vieira da Silva](https://github.com/hvslucas)*
+-  :link:  *Luis Antônio Gadelha Pinheiro*
 -  :link:  *[Marco Antonio de Vasconcelos Souza Filho](https://github.com/MarcoFilho1)*
--  :link:  *[Marco Antonio de Vasconcelos Souza Filho](https://github.com/sabrina78394)*
+-  :link:  *[Sabrina Xavier Almeida](https://github.com/sabrina78394)*
 
 ###  :control_knobs: Docente:
 
@@ -25,3 +25,4 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 <br>
 <br>
 <br>
+[![chip-logo](https://github.com/user-attachments/assets/ee2d00e2-ebb1-4871-9950-6c8a86963f90)](#:abacus::gear:-projeto-unidade-lógica-e-aritmética)
