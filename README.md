@@ -2,7 +2,7 @@
 
 - ### [:dart: Objetivo](#dart-objetivo-1)
 - ### [:gear: Como rodar](#gear-como-rodar-1)
-- ### [:desktop_computer: Simulação](#desktop_simulacao-1)
+- ### [:desktop_computer: Simulação](#desktop_computer-simulação-1)
 - ### [:arrow_down: Baixar o projeto](https://github.com/Maximusthr/ULA-CL2/archive/refs/heads/main.zip)
 
 ## Disciplina de Circuitos Lógicos II
@@ -22,7 +22,11 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 -  :link: *Verônica Maria*
 <br>
 <br>
-<br>
-<br>
-<br>
-[![chip-logo](https://github.com/user-attachments/assets/ee2d00e2-ebb1-4871-9950-6c8a86963f90)](#:abacus::gear:-projeto-unidade-lógica-e-aritmética)
+
+[![chip-logo](https://github.com/user-attachments/assets/63eea007-4a99-4238-b66c-cc52ebe194f4)](#:abacus::gear:-projeto-unidade-lógica-e-aritmética)
+
+## :dart: Objetivo:
+
+## :gear: Como rodar
+
+## :desktop_computer: Simulação
