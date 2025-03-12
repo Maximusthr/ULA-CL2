@@ -103,16 +103,17 @@ Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1
   - Inicie o Quartus II no seu computador.
 
   - Criar um Novo Projeto:
-    - No menu principal, vá em `File` > `New Project Wizard`.
+    - No menu principal, vá em `File` > `New Project Wizard`
     - Siga as instruções do assistente para criar um novo projeto.
     - Defina o diretório do projeto, **Recomendamos que crie uma pasta com o nome `"ULA"`**
     - **!** Defina o nome do projeto como **`"ULA"`**
+    - **!** Defina o dispositivo FPGA como **`"Cyclone II"`** (`Device family` >  `Family`)
 
 - **2 Adicionar Arquivos Existentes:**
   - Após criar o projeto, adicionar o arquivo **`ULA.sv`**:
-    - Vá em `Project` > `Add/Remove Files in Project`.
+    - Vá em `Project` > `Add/Remove Files in Project`
     - Clique em `...` ao lado do campo `File name` para navegar até o local do arquivo **`ULA.sv`**
     - Selecione o arquivo **`ULA.sv`** e clique em `Abrir` e depois em `Add`
-    - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em `Okay`.
+    - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em `Okay`
 
 ## :desktop_computer: Simulação
