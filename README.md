@@ -27,11 +27,13 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 
 ## :dart: Objetivo:
 
-O do projeto é projetar, implementar e simular uma Unidade Lógica e Aritmética (ULA)[^1] em SystemVerilog[^2] que seja capaz de realizar operações lógicas e aritméticas sobre operandos de 6 bits, seguindo as especificações a partir de entradas de seleção.
+O do projeto é projetar, implementar e simular uma Unidade Lógica e Aritmética (ULA)[^1] em SystemVerilog[^2] que seja capaz de realizar operações lógicas e aritméticas sobre operandos de 6 bits, seguindo as especificações a partir de entradas de seleção. Para o desenvolvimento deste projeto, foi recomendado pela docente a utilização do software Quartus II.[^3] (Mais detalhes sobre a utilização do software em [Como rodar](#gear-como-rodar-1))
 
 [^1]: A [Unidade Lógica e Aritmética (ULA) ou Arithmetic Logic Unit (ALU)](https://www.icloud.com.br/20798/o-que-e-uma-unidade-logica-aritmetica) é um tipo de unidade da [Unidade Central de Processamento (CPU)](https://www.ibm.com/br-pt/think/topics/central-processing-unit-types#:~:text=Unidade%20l%C3%B3gica%20aritm%C3%A9tica%20(ALU)%3A,a%20a%C3%A7%C3%B5es%20espec%C3%ADficas%20do%20computador.)
 
 [^2]: SystemVerilog é uma [linguagem de descrição e verificação de hardware](https://pt.wikipedia.org/wiki/Linguagem_de_descri%C3%A7%C3%A3o_de_hardware)
+
+[^3]: Quartus uma plataforma completa da Intel para projetos de hardware. Permite a síntese, simulação e implementação de circuitos digitais.
 
 ### Especificações da ULA e Atribuições
 
@@ -91,5 +93,26 @@ Seguindo as especificações determinadas, as atribuições no código ficaram:
 
 
 ## :gear: Como rodar
+
+Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1, uma plataforma mantida pela Intel para projetos de hardware. Por isso, recomendamos a utilização dessa versão (ou superior) por oferecer a melhor compatibilidade com o código. O download do software pode ser encontrado em: [**Download**](https://www.intel.com/content/www/us/en/software-kit/711791/intel-quartus-ii-web-edition-design-software-version-13-0sp1-for-windows.html)
+
+[**Atenção:** Lembre de baixar o projeto e extraí-lo devidamente do `.zip`.](#abacusgear-projeto-unidade-lógica-e-aritmética)
+
+- **1 Abrir o Quartus II e Iniciar projeto:**
+
+  - Inicie o Quartus II no seu computador.
+
+- Criar um Novo Projeto:
+  - No menu principal, vá em File > **`New Project Wizard`**.
+  - Siga as instruções do assistente para criar um novo projeto.
+  - Defina o diretório do projeto, **Recomendamos que crie uma pasta com o nome `"ULA"`"**
+  - **!** Defina o nome do projeto como **`"ULA"`**
+
+- **2 Adicionar Arquivos Existentes:**
+  - Após criar o projeto, adicionar o arquivo **`ULA.sv`**:
+    - Vá em `Project` > `Add/Remove Files in Project`.
+    - Clique em `...` ao lado do campo `File name` para navegar até o local do arquivo **`ULA.sv`**
+    - Selecione o arquivo **`ULA.sv`** e clique em **`Open`**
+    - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em **`Okay`**.
 
 ## :desktop_computer: Simulação
