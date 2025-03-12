@@ -3,6 +3,7 @@
 - ### [:dart: Objetivo](#dart-objetivo-1)
 - ### [:gear: Como rodar](#gear-como-rodar-1)
 - ### [:desktop_computer: Simulação](#desktop_computer-simulação-1)
+- ### [:floppy_disk: Circuito Resultante](#floppy_disk-circuito-resultante-1)
 - ### [:arrow_down: Baixar o projeto](https://github.com/Maximusthr/ULA-CL2/archive/refs/heads/main.zip)
 
 ## Disciplina de Circuitos Lógicos II
@@ -135,5 +136,12 @@ Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1
       - É possível alterar os valores dos operandos na ferramenta de simulação utilizando as opções do **Painel Superior de Opções** (opções ao lado do botão de rodar a simulação)
       - A opção com um R, `Random Values`, estabelece valores aleatórios ao longo do intervalo estabelecido
       - Após associar os valores arbitrários, basta executar o passo de execução
+
+## :floppy_disk: Circuito Resultante
+
+O circuito abaixo pode ser acessado após a compilação do código:
+- `Tools`> `Netlist Viewers` > `RTL Viewer`
+
+![image](https://github.com/user-attachments/assets/51c7f0b8-d790-4194-98ec-d1cc6448b8af)
 
 ## :desktop_computer: Simulação
