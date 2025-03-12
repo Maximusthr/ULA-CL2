@@ -112,7 +112,7 @@ Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1
   - Após criar o projeto, adicionar o arquivo **`ULA.sv`**:
     - Vá em `Project` > `Add/Remove Files in Project`.
     - Clique em `...` ao lado do campo `File name` para navegar até o local do arquivo **`ULA.sv`**
-    - Selecione o arquivo **`ULA.sv`** e clique em `Open`
+    - Selecione o arquivo **`ULA.sv`** e clique em `Abrir` e depois em `Add`
     - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em `Okay`.
 
 ## :desktop_computer: Simulação
