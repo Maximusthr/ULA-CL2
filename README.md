@@ -105,7 +105,7 @@ Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1
   - Criar um Novo Projeto:
     - No menu principal, vá em `File` > `New Project Wizard`.
     - Siga as instruções do assistente para criar um novo projeto.
-    - Defina o diretório do projeto, **Recomendamos que crie uma pasta com o nome `"ULA"`"**
+    - Defina o diretório do projeto, **Recomendamos que crie uma pasta com o nome `"ULA"`**
     - **!** Defina o nome do projeto como **`"ULA"`**
 
 - **2 Adicionar Arquivos Existentes:**
