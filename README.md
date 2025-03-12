@@ -109,11 +109,31 @@ Para o desenvolvimento deste projeto, foi utilizado o Quartus II versão 13.0sp1
     - **!** Defina o nome do projeto como **`"ULA"`**
     - **!** Defina o dispositivo FPGA como **`"Cyclone II"`** (`Device family` >  `Family`)
 
-- **2 Adicionar Arquivos Existentes:**
+- **2 Adicionar o código da ULA:**
   - Após criar o projeto, adicionar o arquivo **`ULA.sv`**:
     - Vá em `Project` > `Add/Remove Files in Project`
     - Clique em `...` ao lado do campo `File name` para navegar até o local do arquivo **`ULA.sv`**
     - Selecione o arquivo **`ULA.sv`** e clique em `Abrir` e depois em `Add`
     - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em `Okay`
+
+- **3 Simular**
+  - Executar a compilação:
+    - No **Painel Superior de Opções** procure pelo ícone de *play* descrito como `Start Compilation`
+      - Ou, `Processing` > `Start Analysis & Synthesis`
+
+    - Importar a Simulação com entradas estabelecidas:
+      - Vá em `Project` > `Add/Remove Files in Project`
+      - Clique em `...` ao lado do campo `File name` para navegar até o local do arquivo `Waveform.vwf`
+      - **!** O arquivo desejado possivelmente não irá aparecer, acima do botão `Abrir` terá a opção de tipo de arquivo, selecione `All Files (*)`
+      - Selecione o arquivo `Waveform.vwf` e clique em `Abrir` e depois em `Add`
+      - Certifique-se de que o arquivo está marcado para ser incluído no projeto e clique em `Apply` e depois em `Okay`
+     
+    - Executar:
+      - Na ferramenta de simulação, clique em `Simulation` > `Run Functional Simulation` ou no **Painel Superior de Opções** ícone na para iniciar a simulação
+     
+    - Alterar valores de entrada:
+      - É possível alterar os valores dos operandos na ferramenta de simulação utilizando as opções do **Painel Superior de Opções** (opções ao lado do botão de rodar a simulação)
+      - A opção com um R, `Random Values`, estabelece valores aleatórios ao longo do intervalo estabelecido
+      - Após associar os valores arbitrários, basta executar o passo de execução
 
 ## :desktop_computer: Simulação
