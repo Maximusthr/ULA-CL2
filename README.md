@@ -28,7 +28,7 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 
 ## :dart: Objetivo:
 
-O do projeto é projetar, implementar e simular uma Unidade Lógica e Aritmética (ULA)[^1] em SystemVerilog[^2] que seja capaz de realizar operações lógicas e aritméticas sobre operandos de 6 bits, seguindo as especificações a partir de entradas de seleção. Para o desenvolvimento deste projeto, foi recomendado pela docente a utilização do software Quartus II.[^3] (Mais detalhes sobre a utilização do software em [Como rodar](#gear-como-rodar-1))
+O objetivo do projeto é projetar, implementar e simular uma Unidade Lógica e Aritmética (ULA)[^1] em SystemVerilog[^2] que seja capaz de realizar operações lógicas e aritméticas sobre operandos de 6 bits, seguindo as especificações a partir de entradas de seleção. Para o desenvolvimento deste projeto, foi recomendado pela docente a utilização do software Quartus II.[^3] (Mais detalhes sobre a utilização do software em [Como rodar](#gear-como-rodar-1))
 
 [^1]: A [Unidade Lógica e Aritmética (ULA) ou Arithmetic Logic Unit (ALU)](https://www.icloud.com.br/20798/o-que-e-uma-unidade-logica-aritmetica) é um tipo de unidade da [Unidade Central de Processamento (CPU)](https://www.ibm.com/br-pt/think/topics/central-processing-unit-types#:~:text=Unidade%20l%C3%B3gica%20aritm%C3%A9tica%20(ALU)%3A,a%20a%C3%A7%C3%B5es%20espec%C3%ADficas%20do%20computador.)
 
