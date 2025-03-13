@@ -152,5 +152,8 @@ As simulações detalhadas para análise e validação dos resultados, especialm
 
 ![image](https://github.com/user-attachments/assets/3478f991-c489-43c6-a6c6-d48c2ea8da7c)
 
-### Simulação 
+### Simulação de Operações Lógicas
+
+![image](https://github.com/user-attachments/assets/a3309229-8186-428a-a1b4-09fcfa8a4aef)
+
 
