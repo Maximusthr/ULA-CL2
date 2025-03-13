@@ -145,3 +145,12 @@ O circuito abaixo pode ser acessado após a compilação do código:
 ![image](https://github.com/user-attachments/assets/51c7f0b8-d790-4194-98ec-d1cc6448b8af)
 
 ## :desktop_computer: Simulação
+
+As simulações detalhadas para análise e validação dos resultados, especialmente os relacionados à precisão das operações e entradas possíveis, pode ser encontrada na pasta [`Forma de Onda`](Forma%20de%20Onda/). Esses arquivos contêm informações mais aprofundadas sobre o comportamento do sistema em diferentes cenários.
+
+### Simulação de Operações Aritméticas
+
+![image](https://github.com/user-attachments/assets/3478f991-c489-43c6-a6c6-d48c2ea8da7c)
+
+### Simulação 
+
